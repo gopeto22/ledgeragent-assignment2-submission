@@ -1,0 +1,19 @@
+{
+  "name": "pilot_response_time",
+  "category": "contradiction_case",
+  "success": true,
+  "elapsed_seconds": 0.0020087920129299164,
+  "tool_calls": 2,
+  "cost_usd": 0.015501,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "2 hour|2-hour|2 hours",
+    "pilot",
+    "4 hour|4-hour|4 hours"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "Enterprise Pilot response time:\n- Standard Enterprise SLA: 4 hour response time\n- Pilot workspace ov",
+  "confidence": 0.8,
+  "failure_classification": null
+}

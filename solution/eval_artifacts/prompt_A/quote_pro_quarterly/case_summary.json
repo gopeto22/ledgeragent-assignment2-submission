@@ -1,0 +1,19 @@
+{
+  "name": "quote_pro_quarterly",
+  "category": "arithmetic_and_retrieval",
+  "success": true,
+  "elapsed_seconds": 0.0013148339930921793,
+  "tool_calls": 2,
+  "cost_usd": 0.015674999999999998,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "4%",
+    "3596",
+    "Pro"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "For a 42-seat Pro customer in the EU expecting 320000 monthly events with quarterly billing:\n- Month",
+  "confidence": 0.8,
+  "failure_classification": null
+}

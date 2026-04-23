@@ -1,0 +1,76 @@
+{
+  "variant_a": "A",
+  "variant_b": "B",
+  "preferred_variant": "A",
+  "success_rate_delta": 0.0,
+  "success_rate_delta_percent": 0.0,
+  "cost_delta": 0.011669699999999998,
+  "cost_delta_percent": 74.72098964636275,
+  "latency_delta": -0.0015623544924892486,
+  "latency_delta_percent": -46.164034709178885,
+  "category_comparison": {
+    "python_transform": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "budget_stress": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "arithmetic_and_retrieval": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "document_comparison": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "multi_hop_reasoning": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "policy_decision": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "contradiction_case": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "policy_based_arithmetic": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "public_private_reconciliation": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    },
+    "ambiguous_policy_case": {
+      "variant_a_pass_rate": 1.0,
+      "variant_b_pass_rate": 1.0,
+      "delta": 0.0,
+      "winner": "tie"
+    }
+  },
+  "hardest_for_both": [],
+  "variant_a_advantages": [],
+  "variant_b_advantages": []
+}

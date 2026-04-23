@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-04-22T17:18:06.466597+00:00",
+  "prompt_variant": "A",
+  "total_cases": 10,
+  "passed": 10,
+  "failed": 0,
+  "success_rate": 1.0,
+  "avg_cost_usd": 0.015617700000000002,
+  "avg_latency_seconds": 0.003384354297304526,
+  "category_pass_rates": {
+    "arithmetic_and_retrieval": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "document_comparison": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "public_private_reconciliation": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "contradiction_case": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "policy_decision": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "policy_based_arithmetic": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "python_transform": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "multi_hop_reasoning": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "budget_stress": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    },
+    "ambiguous_policy_case": {
+      "passed": 1,
+      "total": 1,
+      "pass_rate": 1.0,
+      "failure_categories": {}
+    }
+  },
+  "failure_analysis": {
+    "total_failures": 0,
+    "failures_by_category": {},
+    "failures_by_reason": {},
+    "high_severity_failures": []
+  },
+  "cases": [
+    {
+      "name": "quote_pro_quarterly",
+      "category": "arithmetic_and_retrieval",
+      "success": true,
+      "elapsed_seconds": 0.0013148339930921793,
+      "tool_calls": 2,
+      "cost_usd": 0.015674999999999998,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "4%",
+        "3596",
+        "Pro"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "For a 42-seat Pro customer in the EU expecting 320000 monthly events with quarterly billing:\n- Month",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "compare_enterprise_sla_to_acme",
+      "category": "document_comparison",
+      "success": true,
+      "elapsed_seconds": 0.006930417031981051,
+      "tool_calls": 2,
+      "cost_usd": 0.015621,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "99\\.9",
+        "99\\.95",
+        "50%",
+        "30%"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Our Enterprise SLA vs Acme Enterprise comparison:\n- Our Enterprise: 99.9% uptime guarantee with 50% ",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "phi_support_reconciliation",
+      "category": "public_private_reconciliation",
+      "success": true,
+      "elapsed_seconds": 0.0014504999853670597,
+      "tool_calls": 2,
+      "cost_usd": 0.015519000000000002,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "Pro",
+        "not supported",
+        "EU data residency",
+        "Enterprise"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "PHI and EU data residency status:\n- Pro: PHI storage is not supported according to current policy\n- ",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "pilot_response_time",
+      "category": "contradiction_case",
+      "success": true,
+      "elapsed_seconds": 0.0020087920129299164,
+      "tool_calls": 2,
+      "cost_usd": 0.015501,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "2 hour|2-hour|2 hours",
+        "pilot",
+        "4 hour|4-hour|4 hours"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Enterprise Pilot response time:\n- Standard Enterprise SLA: 4 hour response time\n- Pilot workspace ov",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "travel_contractor_nyc",
+      "category": "policy_decision",
+      "success": true,
+      "elapsed_seconds": 0.001581083983182907,
+      "tool_calls": 2,
+      "cost_usd": 0.015693,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "not fully reimbursable|not fully reimbursed|not fully covered",
+        "275",
+        "pre-approval|preapproval"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Travel reimbursement decision:\n- Hotel cost: 310 USD per night\n- Policy limit: 275 USD per night wit",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "enterprise_credit_calc",
+      "category": "policy_based_arithmetic",
+      "success": true,
+      "elapsed_seconds": 0.008150124980602413,
+      "tool_calls": 2,
+      "cost_usd": 0.015504,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "25%",
+        "4500"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Service credit calculation for Enterprise customer:\n- Monthly fee: 18000 USD\n- Uptime achieved: 99.3",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "latency_percentile",
+      "category": "python_transform",
+      "success": true,
+      "elapsed_seconds": 0.00928616599412635,
+      "tool_calls": 2,
+      "cost_usd": 0.015486,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "320",
+        "250",
+        "70",
+        "miss|above|over"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "P90 latency analysis from samples [120, 180, 220, 260, 300, 340]:\n- P90 latency: 320ms (calculated f",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "competitor_value_gap",
+      "category": "multi_hop_reasoning",
+      "success": true,
+      "elapsed_seconds": 0.0016437500016763806,
+      "tool_calls": 2,
+      "cost_usd": 0.015618,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "Enterprise",
+        "Acme",
+        "7454",
+        "796"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Pricing comparison for 50 seats and 550000 monthly events:\n- Our Enterprise plan: 7454 USD per month",
+      "confidence": 0.8,
+      "failure_classification": null
+    },
+    {
+      "name": "budget_stress_refusal",
+      "category": "budget_stress",
+      "success": true,
+      "elapsed_seconds": 0.0008481669938191772,
+      "tool_calls": 2,
+      "cost_usd": 0.015342,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "budget",
+        "cap|exceeded|stopped"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "This request exceeds available budget. The budget cap has been exceeded. Cannot produce exhaustive c",
+      "confidence": 0.8,
+      "failure_classification": null,
+      "budget_override_applied": true
+    },
+    {
+      "name": "receipt_and_taxi",
+      "category": "ambiguous_policy_case",
+      "success": true,
+      "elapsed_seconds": 0.0006297079962678254,
+      "tool_calls": 2,
+      "cost_usd": 0.016218000000000003,
+      "contradictions_flagged": 0,
+      "termination_reason": "completed",
+      "matched_required_patterns": [
+        "72",
+        "75",
+        "23:10|22:00|after 22",
+        "receipt|explanation"
+      ],
+      "matched_forbidden_patterns": [],
+      "answer_preview": "Reimbursement determination for London employee:\n- Client dinner: 72 GBP (fully reimbursable with re",
+      "confidence": 0.8,
+      "failure_classification": null
+    }
+  ]
+}

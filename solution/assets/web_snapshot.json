@@ -1,0 +1,23 @@
+[
+  {
+    "id": "acme_pricing",
+    "title": "Acme Analytics pricing overview",
+    "url": "https://example.com/acme/pricing",
+    "published_at": "2026-03-15",
+    "text": "Acme Analytics lists Pro at 95 USD per seat with 300000 included events and Enterprise at 165 USD per seat with 600000 included events. Enterprise annual commitments receive a 10 percent discount."
+  },
+  {
+    "id": "acme_sla",
+    "title": "Acme Analytics SLA and service credits",
+    "url": "https://example.com/acme/sla",
+    "published_at": "2026-02-02",
+    "text": "Acme Enterprise advertises 99.95 percent uptime. Customers receive a 15 percent credit below 99.9 percent uptime and a 30 percent credit below 99.5 percent uptime. Acme Pro advertises 99.5 percent uptime with a 10 percent credit below 99.0 percent uptime."
+  },
+  {
+    "id": "roadmap_hipaa",
+    "title": "Roadmap update: HIPAA beta and EU data residency",
+    "url": "https://example.com/company/roadmap-hipaa-eu",
+    "published_at": "2026-04-01",
+    "text": "The public roadmap states that HIPAA support is in beta for a limited group of enterprise design partners later this year, while EU data residency is now generally available for enterprise customers."
+  }
+]

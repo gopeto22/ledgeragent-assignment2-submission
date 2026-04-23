@@ -1,0 +1,77 @@
+{
+  "plans": [
+    {
+      "plan": "Starter",
+      "seat_price_usd": 39,
+      "included_events": 100000,
+      "overage_per_1000_usd": 0.18,
+      "annual_discount_pct": 0,
+      "quarterly_discount_pct": 0
+    },
+    {
+      "plan": "Pro",
+      "seat_price_usd": 89,
+      "included_events": 250000,
+      "overage_per_1000_usd": 0.12,
+      "annual_discount_pct": 12,
+      "quarterly_discount_pct": 4
+    },
+    {
+      "plan": "Enterprise",
+      "seat_price_usd": 149,
+      "included_events": 500000,
+      "overage_per_1000_usd": 0.08,
+      "annual_discount_pct": 18,
+      "quarterly_discount_pct": 7
+    }
+  ],
+  "pilot_overrides": [
+    {
+      "program": "Enterprise Pilot",
+      "response_time_hours": 2,
+      "incident_bridge_minutes": 15,
+      "phi_allowed_with_baa": true,
+      "notes": "Applies only to approved pilot workspaces."
+    }
+  ],
+  "regional_caps": [
+    {
+      "region": "UK",
+      "meal_cap": 75,
+      "currency": "GBP",
+      "taxi_after_10pm_allowed": true
+    },
+    {
+      "region": "EU",
+      "meal_cap": 90,
+      "currency": "EUR",
+      "taxi_after_10pm_allowed": true
+    },
+    {
+      "region": "US",
+      "meal_cap": 85,
+      "currency": "USD",
+      "taxi_after_10pm_allowed": true
+    },
+    {
+      "region": "HighCostCityHotelCap",
+      "hotel_cap": 275,
+      "currency": "USD"
+    },
+    {
+      "region": "StandardHotelCap",
+      "hotel_cap": 240,
+      "currency": "USD"
+    }
+  ],
+  "analytics_targets": [
+    {
+      "metric": "p90_api_latency_ms",
+      "target": 250
+    },
+    {
+      "metric": "p50_api_latency_ms",
+      "target": 180
+    }
+  ]
+}

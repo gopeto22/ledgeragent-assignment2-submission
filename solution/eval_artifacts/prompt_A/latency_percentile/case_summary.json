@@ -1,0 +1,20 @@
+{
+  "name": "latency_percentile",
+  "category": "python_transform",
+  "success": true,
+  "elapsed_seconds": 0.00928616599412635,
+  "tool_calls": 2,
+  "cost_usd": 0.015486,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "320",
+    "250",
+    "70",
+    "miss|above|over"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "P90 latency analysis from samples [120, 180, 220, 260, 300, 340]:\n- P90 latency: 320ms (calculated f",
+  "confidence": 0.8,
+  "failure_classification": null
+}

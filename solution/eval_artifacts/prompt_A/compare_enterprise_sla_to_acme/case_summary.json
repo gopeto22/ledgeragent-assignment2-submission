@@ -1,0 +1,20 @@
+{
+  "name": "compare_enterprise_sla_to_acme",
+  "category": "document_comparison",
+  "success": true,
+  "elapsed_seconds": 0.006930417031981051,
+  "tool_calls": 2,
+  "cost_usd": 0.015621,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "99\\.9",
+    "99\\.95",
+    "50%",
+    "30%"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "Our Enterprise SLA vs Acme Enterprise comparison:\n- Our Enterprise: 99.9% uptime guarantee with 50% ",
+  "confidence": 0.8,
+  "failure_classification": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "phi_support_reconciliation",
+  "category": "public_private_reconciliation",
+  "success": true,
+  "elapsed_seconds": 0.001545958046335727,
+  "tool_calls": 3,
+  "cost_usd": 0.030930000000000003,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "Pro",
+    "not supported",
+    "EU data residency",
+    "Enterprise"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "PHI and EU data residency status:\n- Pro: PHI storage is not supported according to current policy\n- ",
+  "confidence": 0.8,
+  "failure_classification": null
+}

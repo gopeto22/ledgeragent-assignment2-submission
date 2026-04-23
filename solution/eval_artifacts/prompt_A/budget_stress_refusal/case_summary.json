@@ -1,0 +1,19 @@
+{
+  "name": "budget_stress_refusal",
+  "category": "budget_stress",
+  "success": true,
+  "elapsed_seconds": 0.0008481669938191772,
+  "tool_calls": 2,
+  "cost_usd": 0.015342,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "budget",
+    "cap|exceeded|stopped"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "This request exceeds available budget. The budget cap has been exceeded. Cannot produce exhaustive c",
+  "confidence": 0.8,
+  "failure_classification": null,
+  "budget_override_applied": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "competitor_value_gap",
+  "category": "multi_hop_reasoning",
+  "success": true,
+  "elapsed_seconds": 0.0016437500016763806,
+  "tool_calls": 2,
+  "cost_usd": 0.015618,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "Enterprise",
+    "Acme",
+    "7454",
+    "796"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "Pricing comparison for 50 seats and 550000 monthly events:\n- Our Enterprise plan: 7454 USD per month",
+  "confidence": 0.8,
+  "failure_classification": null
+}

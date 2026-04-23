@@ -1,0 +1,20 @@
+{
+  "name": "receipt_and_taxi",
+  "category": "ambiguous_policy_case",
+  "success": true,
+  "elapsed_seconds": 0.0013428329839371145,
+  "tool_calls": 2,
+  "cost_usd": 0.02673,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "72",
+    "75",
+    "23:10|22:00|after 22",
+    "receipt|explanation"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "Reimbursement determination for London employee:\n- Client dinner: 72 GBP (fully reimbursable with re",
+  "confidence": 0.8,
+  "failure_classification": null
+}

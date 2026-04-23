@@ -1,0 +1,19 @@
+{
+  "name": "travel_contractor_nyc",
+  "category": "policy_decision",
+  "success": true,
+  "elapsed_seconds": 0.001581083983182907,
+  "tool_calls": 2,
+  "cost_usd": 0.015693,
+  "contradictions_flagged": 0,
+  "termination_reason": "completed",
+  "matched_required_patterns": [
+    "not fully reimbursable|not fully reimbursed|not fully covered",
+    "275",
+    "pre-approval|preapproval"
+  ],
+  "matched_forbidden_patterns": [],
+  "answer_preview": "Travel reimbursement decision:\n- Hotel cost: 310 USD per night\n- Policy limit: 275 USD per night wit",
+  "confidence": 0.8,
+  "failure_classification": null
+}

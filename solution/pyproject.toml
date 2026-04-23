@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ledger-agent"
+version = "0.1.0"
+description = "LedgerAgent: a budget-aware, self-auditing multi-tool analyst"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-timeout>=2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-timeout>=2.2",
+]
+
+[project.scripts]
+ledger-agent = "spec_agent.cli:main"
+ledger-agent-eval = "spec_agent.evals:main"
+
+[tool.setuptools.packages.find]
+include = ["spec_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
